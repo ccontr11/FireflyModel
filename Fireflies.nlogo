@@ -58,7 +58,7 @@ to increment-clock ; turtle procedure
 end
 
 to look ; turtle procedure
-  if count turtles in-radius 1 with [color = blue] >= flashes-to-reset
+  if count turtles in-radius 1 with [color = red] >= flashes-to-reset
     [ set clock reset-level ]
 end
 
