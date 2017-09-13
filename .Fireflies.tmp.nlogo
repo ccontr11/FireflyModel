@@ -39,7 +39,7 @@ end
 to recolor ; turtle procedure
   ifelse (clock < threshold)
     [ show-turtle
-      set color pin ]
+       ]
     [ set color gray - 2
       ifelse show-dark-fireflies?
         [ show-turtle ]
