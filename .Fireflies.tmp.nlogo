@@ -58,7 +58,7 @@ to increment-clock ; turtle procedure
 end
 
 to look ; turtle procedure
-  if count turtles in-radius 1 with [color = pin] >= flashes-to-reset
+  if count turtles in-radius 1 with [color = gree\n] >= flashes-to-reset
     [ set clock reset-level ]
 end
 
@@ -102,7 +102,7 @@ number
 number
 0
 2000
-1500.0
+0.0
 1
 1
 NIL
@@ -117,7 +117,7 @@ cycle-length
 cycle-length
 5
 100
-10.0
+0.0
 1
 1
 NIL
@@ -132,7 +132,7 @@ flash-length
 flash-length
 1
 10
-1.0
+0.0
 1
 1
 NIL
@@ -147,7 +147,7 @@ flashes-to-reset
 flashes-to-reset
 1
 3
-1.0
+0.0
 1
 1
 NIL
