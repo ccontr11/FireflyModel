@@ -39,7 +39,7 @@ end
 to recolor ; turtle procedure
   ifelse (clock < threshold)
     [ show-turtle
-      set color one-of base-colors ]
+      set color one-of base-colors]
     [ set color gray - 2
       ifelse show-dark-fireflies?
         [ show-turtle ]
