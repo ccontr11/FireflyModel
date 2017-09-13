@@ -58,11 +58,7 @@ to increment-clock ; turtle procedure
 end
 
 to look ; turtle procedure
-<<<<<<< HEAD
-  if count turtles in-radius 1 with [color = black] >= flashes-to-reset
-=======
-  if count turtles in-radius 1 with [color = red] >= flashes-to-reset
->>>>>>> fe8e2ed250564b459364bb9378f0fbc5fc971ea8
+  if count turtles in-radius 1 with [color = yellow] >= flashes-to-reset
     [ set clock reset-level ]
 end
 
@@ -73,10 +69,10 @@ end
 GRAPHICS-WINDOW
 300
 10
-736
-467
-35
-35
+734
+445
+-1
+-1
 6.0
 1
 10
@@ -106,7 +102,7 @@ number
 number
 0
 2000
-1500
+0.0
 1
 1
 NIL
@@ -121,7 +117,7 @@ cycle-length
 cycle-length
 5
 100
-10
+0.0
 1
 1
 NIL
@@ -136,7 +132,7 @@ flash-length
 flash-length
 1
 10
-1
+0.0
 1
 1
 NIL
@@ -151,7 +147,7 @@ flashes-to-reset
 flashes-to-reset
 1
 3
-1
+0.0
 1
 1
 NIL
@@ -612,9 +608,8 @@ false
 0
 Polygon -7500403 true true 270 75 225 30 30 225 75 270
 Polygon -7500403 true true 30 75 75 30 270 225 225 270
-
 @#$#@#$#@
-NetLogo 5.3.1
+NetLogo 6.0.2
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
@@ -630,7 +625,6 @@ true
 0
 Line -7500403 true 150 150 90 180
 Line -7500403 true 150 150 210 180
-
 @#$#@#$#@
 1
 @#$#@#$#@
